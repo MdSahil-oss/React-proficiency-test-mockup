@@ -10,13 +10,17 @@ let Sidebar = () => {
     }
     return (
         <div className='sidebar'>
-            <div>
-                <div id="bar-line-1"></div>
-                <div id="bar-line-2"></div>
-                <div id="bar-line-3"></div>
+            <div id='sidebar-01'>
+                <div id='bar-lines-container'>
+                    <div id="bar-line-1"></div>
+                    <div id="bar-line-2"></div>
+                    <div id="bar-line-3"></div>
+                </div>
+                <div id='bar-buttons-container'>
+                    <i onClick={(e) => { setNav(e) }} class="bar-home bar-buttons fa-solid fa-house fa-2xl bar-focussed-color"></i>
+                    <i onClick={(e) => { setNav(e) }} class="bar-mail bar-buttons fa-solid fa-envelope fa-2xl"></i>
+                </div>
             </div>
-            <i onClick={(e) => {setNav(e)}} class="bar-home bar-buttons fa-solid fa-house fa-2xl bar-focussed-color"></i>
-            <i onClick={(e) => {setNav(e)}} class="bar-mail bar-buttons fa-solid fa-envelope fa-2xl"></i>
         </div>
     )
 }
