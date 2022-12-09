@@ -1,5 +1,5 @@
-import icon1 from '../images/images.jpeg'
-import icon2 from '../images/cool-boy.webp'
+import icon1 from '../../images/images.jpeg'
+import icon2 from '../../images/cool-boy.webp'
 
 const list = [
     {
